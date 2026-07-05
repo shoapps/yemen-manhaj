@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تواصل معنا - كتب المنهج اليمني</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Tahoma,Arial,sans-serif;
+    background:linear-gradient(135deg,#071b33,#0b4f6c);
+    color:white;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+header{
+    text-align:center;
+    padding:35px;
+}
+
+h1{
+    margin:0;
+    font-size:34px;
+}
+
+.subtitle{
+    color:#bdefff;
+}
+
+nav{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+    gap:12px;
+    margin:25px 0;
+}
+
+nav a{
+    text-decoration:none;
+    text-align:center;
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.20);
+    color:white;
+    padding:14px;
+    border-radius:15px;
+    font-weight:bold;
+}
+
+.card{
+    background:rgba(255,255,255,.10);
+    padding:28px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,.15);
+    line-height:2;
+}
+
+.email{
+    margin-top:20px;
+    font-size:22px;
+    font-weight:bold;
+    color:#8ee8ff;
+    text-align:center;
+}
+
+.footer{
+    text-align:center;
+    margin-top:35px;
+    color:#cfefff;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>📧 تواصل معنا</h1>
+
+<p class="subtitle">
+يسعدنا استقبال اقتراحاتكم واستفساراتكم.
+</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">🏠 الرئيسية</a>
+
+<a href="privacy.html">🔒 سياسة الخصوصية</a>
+
+<a href="about.html">👤 من نحن</a>
+
+<a href="contact.html">📧 تواصل معنا</a>
+
+</nav>
+
+<div class="card">
+
+<p>
+للاقتراحات أو الإبلاغ عن أي مشكلة أو للاستفسارات، يمكنكم التواصل معنا عبر البريد الإلكتروني الرسمي:
+</p>
+
+<div class="email">
+shoapps.dev@gmail.com
+</div>
+
+<p style="margin-top:25px;">
+نسعد دائمًا بقراءة رسائلكم، وسنعمل على الرد في أقرب وقت ممكن، كما نرحب بأي اقتراح يساهم في تطوير تطبيق <strong>كتب المنهج اليمني</strong> وتحسين تجربة المستخدم.
+</p>
+
+</div>
+
+<div class="footer">
+
+© 2026 ShoApps
+
+</div>
+
+</div>
+
+</body>
+</html>
