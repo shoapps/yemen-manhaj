@@ -1,170 +1,66 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>كتب المنهج اليمني</title>
-  <meta name="description" content="تطبيق كتب المنهج اليمني يوفر الكتب الدراسية لجميع المراحل بصيغة PDF مع سهولة القراءة والتحميل." />
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Tahoma, Arial, sans-serif;
-      background: linear-gradient(135deg, #071b33, #0b4f6c);
-      color: #fff;
-      line-height: 1.8;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 30px 20px;
-      text-align: center;
-    }
-
-    .hero {
-      padding: 50px 20px;
-    }
-
-    .logo {
-      font-size: 70px;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      font-size: 36px;
-      margin: 10px 0;
-      color: #ffffff;
-    }
-
-    .subtitle {
-      font-size: 20px;
-      color: #d8f3ff;
-      max-width: 750px;
-      margin: auto;
-    }
-
-    .buttons {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 15px;
-      margin: 35px 0;
-    }
-
-    .btn {
-      display: block;
-      background: rgba(255,255,255,0.12);
-      color: #fff;
-      text-decoration: none;
-      padding: 16px;
-      border-radius: 18px;
-      border: 1px solid rgba(255,255,255,0.25);
-      transition: 0.3s;
-      font-weight: bold;
-    }
-
-    .btn:hover {
-      background: rgba(255,255,255,0.25);
-      transform: translateY(-3px);
-    }
-
-    .section {
-      background: rgba(255,255,255,0.10);
-      border-radius: 24px;
-      padding: 25px;
-      margin-top: 25px;
-      text-align: right;
-    }
-
-    .section h2 {
-      text-align: center;
-      color: #8ee8ff;
-      margin-top: 0;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 15px;
-      margin-top: 20px;
-    }
-
-    .card {
-      background: rgba(255,255,255,0.12);
-      padding: 18px;
-      border-radius: 18px;
-      border: 1px solid rgba(255,255,255,0.18);
-      text-align: center;
-    }
-
-    footer {
-      margin-top: 35px;
-      color: #ccefff;
-      font-size: 14px;
-    }
-
-    .version {
-      margin-top: 10px;
-      color: #aeefff;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <header class="hero">
-      <div class="logo">📚</div>
-      <h1>كتب المنهج اليمني</h1>
-      <p class="subtitle">
-        تطبيق تعليمي يساعد الطلاب والمعلمين وأولياء الأمور على الوصول إلى كتب المنهج اليمني
-        لجميع المراحل الدراسية بصيغة PDF بطريقة سهلة ومنظمة.
-      </p>
+    <!DOCTYPE html>
+    <html lang="ar" dir="rtl">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كتب المنهج اليمني | Yemen Curriculum Books</title>
+    <meta name="description" content="تطبيق كتب المنهج اليمني يوفر الكتب الدراسية للمناهج اليمنية بطريقة سهلة ومنظمة مع القراءة والتحميل والمفضلة.">
+    <meta name="keywords" content="كتب المنهج اليمني, المنهج اليمني, كتب اليمن, Yemen Curriculum, Yemen Books">
+    <meta name="author" content="ShoApps">
+    <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Tahoma,Arial,sans-serif;background:linear-gradient(135deg,#071b33,#0b4f6c);color:#fff;line-height:1.9}
+    .container{max-width:1000px;margin:auto;padding:25px}
+    header{text-align:center;padding:60px 20px}
+    .logo{font-size:80px}
+    h1{font-size:42px;margin:15px 0}
+    .subtitle{color:#bdefff;font-size:20px}
+    nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;margin:35px 0}
+    nav a{text-decoration:none;color:#fff;background:rgba(255,255,255,.12);padding:16px;border-radius:16px;text-align:center;font-weight:bold}
+    .card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:18px;padding:24px;margin:20px 0}
+    .card h2{color:#8ee8ff;margin-bottom:10px}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+    .feature{background:rgba(255,255,255,.08);padding:18px;border-radius:14px}
+    footer{text-align:center;margin-top:35px;color:#cdefff}
+    </style>
+    </head>
+    <body>
+    <div class="container">
+    <header>
+    <div class="logo">📚</div>
+    <h1>كتب المنهج اليمني</h1>
+    <p class="subtitle">جميع الكتب الدراسية للمناهج اليمنية في تطبيق واحد.</p>
     </header>
 
-    <nav class="buttons">
-      <a class="btn" href="index.html">🏠 الرئيسية</a>
-      <a class="btn" href="privacy.html">🔒 سياسة الخصوصية</a>
-      <a class="btn" href="about.html">👤 من نحن</a>
-      <a class="btn" href="contact.html">📧 تواصل معنا</a>
+    <nav>
+    <a href="index.html">🏠 الرئيسية</a>
+    <a href="privacy.html">🔒 سياسة الخصوصية</a>
+    <a href="about.html">👤 من نحن</a>
+    <a href="contact.html">📧 تواصل معنا</a>
     </nav>
 
-    <section class="section">
-      <h2>عن التطبيق</h2>
-      <p>
-        يوفر تطبيق <strong>كتب المنهج اليمني</strong> مكتبة منظمة للكتب الدراسية الخاصة بالمناهج اليمنية،
-        ابتداءً من الصفوف الأولى وحتى المرحلة الثانوية، مع إمكانية تصفح الكتب وفتحها وتحميلها بسهولة.
-      </p>
-      <p>
-        التطبيق مستقل ولا يمثل أي جهة حكومية، وهدفه تسهيل الوصول إلى الكتب الدراسية المتاحة للطلاب
-        والمعلمين بطريقة أسرع وأكثر تنظيمًا.
-      </p>
-    </section>
+    <div class="card">
+    <h2>نبذة عن التطبيق</h2>
+    <p>يوفر تطبيق كتب المنهج اليمني الوصول إلى الكتب الدراسية للمراحل المختلفة بطريقة منظمة، مع إمكانية القراءة والتحميل وإضافة الكتب إلى المفضلة وحفظ آخر صفحة تمت قراءتها.</p>
+    </div>
 
-    <section class="section">
-      <h2>مميزات التطبيق</h2>
-      <div class="features">
-        <div class="card">📖 عرض كتب المنهج اليمني بصيغة PDF</div>
-        <div class="card">🔍 تنظيم الكتب حسب المرحلة والصف والمادة</div>
-        <div class="card">⬇️ إمكانية تحميل الكتب على الجهاز</div>
-        <div class="card">⭐ إضافة الكتب إلى المفضلة</div>
-        <div class="card">📌 متابعة القراءة وحفظ آخر صفحة</div>
-        <div class="card">🔄 تحديثات مستمرة عند توفر كتب جديدة</div>
-      </div>
-    </section>
+    <div class="card">
+    <h2>مميزات التطبيق</h2>
+    <div class="features">
+    <div class="feature">📖 قراءة الكتب بسهولة.</div>
+    <div class="feature">⬇️ تحميل الكتب للاستخدام لاحقًا.</div>
+    <div class="feature">⭐ إضافة الكتب إلى المفضلة.</div>
+    <div class="feature">📍 متابعة آخر صفحة تمت قراءتها.</div>
+    </div>
+    </div>
 
-    <section class="section">
-      <h2>تنبيه مهم</h2>
-      <p>
-        هذا التطبيق ليس تطبيقًا رسميًا تابعًا لوزارة التربية والتعليم أو لأي جهة حكومية.
-        جميع الحقوق محفوظة لأصحابها، ويهدف التطبيق فقط إلى تسهيل الوصول إلى الكتب الدراسية
-        المتاحة مجانًا لأغراض تعليمية.
-      </p>
-    </section>
+    <div class="card">
+    <h2>الإصدار</h2>
+    <p>الإصدار: <strong>1.0.61</strong></p>
+    <p>البريد الإلكتروني: <strong>shoapps.dev@gmail.com</strong></p>
+    </div>
 
-    <footer>
-      <div>© 2026 ShoApps - جميع الحقوق محفوظة</div>
-      <div class="version">الإصدار: 1.0.61</div>
-    </footer>
-  </div>
-</body>
-</html>
+    <footer>© 2026 ShoApps - جميع الحقوق محفوظة</footer>
+    </div>
+    </body>
+    </html>
